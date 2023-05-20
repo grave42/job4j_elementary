@@ -6,7 +6,7 @@ public class Broken {
 
     public String surname;
 
-    public static final String newValue = "";
+    public static final String NEW_VALUE = "";
 
     void media(Object obj) {
         if (obj != null) {
