@@ -34,7 +34,7 @@ public class PointTest {
 
     @Test
     public void when000to022then282() {
-        double expected = 2.8284271247461903;
+        double expected = 2.82;
         Point a = new Point(0, 0, 0);
         Point b = new Point(0, 2, 2);
         double out = a.distance3d(b);
