@@ -6,8 +6,8 @@ public class Max {
     }
 
     public static int max(int left, int right, int third) {
-        return left >= right + third ? left : right + third; }
+        return max(max(left, right), third); }
 
     public static int max(int left, int right, int third, int four) {
-        return left + four >= right + third ? left + four : right + third; }
+        return max(max(max(left, right), third), four); }
 }
